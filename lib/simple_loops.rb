@@ -36,7 +36,7 @@ counter = 0
 new_array = []
   while counter < input.length do
     input.to_s
-    input.push(new_array)
+    new_array.push(input[counter])
     counter += 1
   end
   puts new_array
