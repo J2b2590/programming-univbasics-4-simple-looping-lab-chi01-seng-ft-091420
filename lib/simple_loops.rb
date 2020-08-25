@@ -38,5 +38,5 @@ new_array = []
     new_array.push(input[counter].to_s)
     counter += 1
   end
-  puts new_array
+  new_array
 end
