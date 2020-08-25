@@ -35,7 +35,8 @@ def return_string_array(input = [ ])
 counter = 0
 new_array = []
   while counter < input.length do
-    new_array.push(input[counter].to_s)
+    input.to_s
+    new_array.push(input[counter])
     counter += 1
   end
   new_array
